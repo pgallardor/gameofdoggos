@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server ./ -p 3000",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "connect": "^3.7.0",
     "http-server": "^0.12.1",
-    "phaser": "^3.22.0"
+    "phaser": "^3.22.0",
+    "serve-static": "^1.14.1"
   }
 }
